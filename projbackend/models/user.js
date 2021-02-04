@@ -23,10 +23,7 @@ const userSchema = new mongoose.Schema({
         trim: true,
         unique: true
     },
-    userinfo: {
-        type: String,
-        trim: true
-    },
+
     encry_password: {
         type: String,
         required: true

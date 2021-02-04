@@ -3,7 +3,7 @@ const { check, validationResult } = require('express-validator');
 var expressJwt = require('express-jwt');
 var jwt = require('jsonwebtoken');
 
-//SIGNUP VALIDATION
+
 //SIGNUP VALIDATION
 exports.signup = (req, res) => {
     const errors = validationResult(req);

@@ -17,7 +17,6 @@ const paymentBRoute = require('./routes/paymentBRoute');
 //const stripeRoute = require('./routes/stripePayment');
 
 
-
 mongoose.connect(process.env.database, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
